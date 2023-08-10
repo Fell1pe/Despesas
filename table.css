@@ -1,0 +1,25 @@
+/*Estilização da tabela*/
+
+table, td, th{
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+td {
+width: 100px;
+padding: 7px;
+}
+th{
+    height: 30px;
+    background-color: #00FFFF;
+    color: rgb(10, 10, 10);
+}
+tr:nth-child(even) {background-color: #f2f2f2}
+
+tr:hover {background-color: #c7c7c7}
+
+.ord{
+    width: 40px;
+}
+.valor{
+    text-align-last: right;
+}
